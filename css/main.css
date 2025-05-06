@@ -1,0 +1,72 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.seccion-home {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seccion-home p {
+  margin: 0;
+}
+.seccion-home .graph {
+  background-color: #E7E7E7;
+}
+.seccion-home .graphs-one {
+  width: 351px;
+  height: 351px;
+  border-radius: 50%;
+  position: absolute;
+  top: -158px;
+  left: -103px;
+}
+.seccion-home .graphs-two {
+  width: 226px;
+  height: 226px;
+  border-radius: 50%;
+  position: absolute;
+  right: -80px;
+  bottom: -40px;
+}
+.seccion-home .title-section .info {
+  color: #D6D6D6;
+  display: flex;
+  flex-direction: column;
+}
+.seccion-home .title-section .info .ux-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+.seccion-home .title-section .info .title {
+  font-size: 200px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+.seccion-home .title-section .info .name {
+  font-size: 60px;
+  font-weight: 500;
+}
+.seccion-home .title-section .links-portfolio {
+  margin-top: 62px;
+  display: flex;
+  gap: 40px;
+}
+.seccion-home .title-section .links-portfolio a {
+  color: #275CB7;
+  background-color: #EAEFF8;
+  padding: 20px 128px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+.seccion-home .title-section .links-portfolio a:hover {
+  background-color: #275CB7;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
